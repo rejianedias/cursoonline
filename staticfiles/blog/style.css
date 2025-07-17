@@ -1,0 +1,290 @@
+/*Estilo do cabeçalho da página*/
+.page-header {
+    text-shadow: 1px 1px 2px #000000;
+    background-color: #C25100;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+/*Estilo do título principal e links dentro dele*/
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #222222;
+    font-size: 36pt;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+/*Espaçamento*/
+.content {
+    margin-left: 40px;
+}
+/* Estilo das tags de título*/
+h1, h2, h3, h4 {
+    font-family: 'Lobster', 'cursive';
+}
+
+.date {
+    color: #828282;
+}
+/*Botão salvar*/
+.save {
+    float: right;
+}
+/*Formulario de postagem*/
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+/*Link do menu superr*/
+.top-menu.logout-button {
+  all: unset; /* remove estilos padrões do botão */
+  background-color: #FFFFE0;
+  color: #F08080;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 18pt;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 1.2;
+  border: none;
+  box-shadow: none;
+}
+
+logout-button {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none !important;
+  background: #FFFFE0 !important;
+  color: #F08080 !important;
+  font: inherit;
+  padding: 8px 12px;
+  margin: 0;
+  border-radius: 6px;
+  min-width: 100px;
+  text-align: center;
+}
+
+/* Hover para botão e link */
+.top-menu:hover,
+.logout-button:hover {
+  background-color: #F08080 !important;
+  color: white !important;
+}
+
+/*Postagem*/
+.post {
+    margin-bottom: 70px;
+}
+/*Links de título de postagens*/
+.post h2 a, .post h2 a:visited {
+    color: #000000;
+}
+/*Estilo dos cartões*/
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+/*Corpo do site*/
+body {
+    background-color: #FFFFE0	; /* fundo claro */
+    color: #8B4513; /* texto escuro */
+    font-family: Arial, sans-serif;
+}
+/*Rodapé*/
+footer {
+    background-color: #2C2C2C; /* escuro */
+    color: #FFFFFF;
+}
+/*Cabeçalho personalizado*/
+.custom-header {
+    background-color: #FA8072; 
+    color: IndianRed;
+}
+
+.custom-header .nav-link {
+    color: #F08080	;
+}
+
+.custom-header .nav-link:hover {
+    color: #FFD700; 
+}
+/*Estilo do carrossel*/
+.carousel,
+.carousel-inner {
+    background-color: #f0f8ff; 
+    padding: 20px;
+    border-radius: 10px;
+}
+/* Jumbotron personalizado,bem vindo ao...*/
+.custom-jumbotron {
+    background-color: #FFA07A; 
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/*Slogan do site*/
+.site-slogan {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  color: #FFFFE0; 
+  font-weight: 400;
+  letter-spacing: 1px;
+       
+}
+/* Container do carrossel */
+.carousel-container {
+  background-color: #87CEFA; 
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* sombra sutil */
+.carousel-container .carousel {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+/*botao*/
+.btn-explorar {
+  background-color: #8B4513 !important; 
+  color: #FFFACD !important;            
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+.btn-explorar:hover {
+  background-color: #FA8072 !important;  /* Tom mais escuro no hover */
+  color: #fffbe6;
+  transform: translateY(-2px); /* Efeito ao passar o mouse */
+}
+/*botão ver mais*/
+.btn-vermais {
+  background-color: #8B4513 !important; /* chocolate */
+  color: #FFFFE0 !important;           /* Amarelo claro */
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-vermais:hover {
+  background-color: #FA8072 !important; /* Variação escura no hover */
+  transform: scale(1.05);
+}
+.titulo-catalogo {
+  color: #8B4513 !important; /* Cor chocolate */
+  font-family: 'Bebas Neue', cursive !important;
+  font-size: 2.2rem !important;
+  font-weight: bold !important;
+}
+h2.titulo-catalogo {
+  color: #8B4513 !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Título principal do curso */
+h2.text-primary {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: #C25100;
+}
+.titulo-curso {
+  color: #C25100	; 
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family:'Bebas Neue', 'cursive';
+}
+
+.card-text {
+    font-size: 0.95rem; /* ou experimente 0.9rem, 14px, etc */
+    line-height: 1.4;
+}
+
+
+/* Descrição do curso */
+.lead {
+    font-size: 1.2rem;
+    color:#C25100 ;
+}
+h1, h2, h3, h4, h5 {
+  font-family:'Bebas Neue';
+  font-weight: 700;
+  color: #C25100;
+}
+
+
+/* Accordion customizado */
+.accordion-button {
+    background-color: #FFF8E1;
+    font-weight: bold;
+    color: #8B4513;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #FFE4B5;
+    color: #000;
+}
+
+.accordion-body {
+    background-color: #FFF5E1;
+    border-top: 1px solid #ddd;
+}
+
+/* Botões personalizados */
+.btn-outline-primary {
+    border-color: #C25100;
+    color: #C25100;
+    border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+}
+
+.btn-outline-primary:hover {
+    background-color: #8B0000;
+    color: white;
+}
+
+/* Comentários */
+textarea.form-control {
+    border: 1px solid #FFDAB9;
+}
+
+.border.p-2.rounded {
+    background-color: #FFF8E1;
+    border-left: 5px solid #C25100;
+}
+
+/* Módulo Lista */
+.list-group-item {
+    background-color: #FFF8E1;
+    border-color: #FFDAB9;
+}
+.titulo-titulo-SaddleBrown {
+  color: #7B3F00;
+  font-weight: 700;
+}
+.btn-DarkRed {
+  background-color: #8B0000	;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+}
+
+.btn-DarkRed:hover {
+  background-color: #8B0000;
+  transform: translateY(-2px);
+}
+
