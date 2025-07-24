@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-pwa+-h4o((5%+=yr5-v@p8k#z&0_qwwbccx$a8t3e*wnv))2^7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS =  ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS =  ['cursoonline123.pythonanywhere.com']
 
 
 
