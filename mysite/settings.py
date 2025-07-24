@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-pwa+-h4o((5%+=yr5-v@p8k#z&0_qwwbccx$a8t3e*wnv))2^7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS =  ['127.0.0.1', '.pythonanywhere.com']
+
 
 
 # Application definition
@@ -128,7 +129,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR,'cursoonline', 'blog','static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'cursos', 'blog','static')]
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 

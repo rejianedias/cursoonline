@@ -10,7 +10,7 @@ from django.conf import settings
 from .forms import ComentarioForm 
 from django.urls import reverse
 from django.http import HttpResponseRedirect
-
+from .models import Comentario  
 
 
 
@@ -21,9 +21,6 @@ def catalogo(request):
     else:
         cursos = Cursos.objects.all()
     return render(request, 'cursos/catalogo.html', {'cursos': cursos})
-
-from .models import Comentario  
-from django.contrib.auth.decorators import login_required
 
 @login_required
 def detalhes_curso(request, curso_id):
