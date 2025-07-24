@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-pwa+-h4o((5%+=yr5-v@p8k#z&0_qwwbccx$a8t3e*wnv))2^7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS =  ['cursoonline123.pythonanywhere.com']
+ALLOWED_HOSTS =  ['ocursoonline.pythonanywhere.com']
 
 
 
